@@ -11,12 +11,19 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    
 }
 
 a:hover {
-    text-decoration: none;
+    text-decoration: underline red/*none*/;
     cursor: pointer;
 }
+
+/*Ajout*/
+.text-center {
+    font-size: 14px;
+}
+/*****/
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -133,7 +140,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: rgb(65, 64, 64);
 }
 
 .d-bloc .a-btn:hover,
@@ -168,7 +175,7 @@ a:hover {
 }
 
 .d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
+    color: rgba(0, 0, 0, 0.952);
 }
 
 .d-bloc .panel icon {
@@ -231,7 +238,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(34, 33, 33, 0.6);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -700,7 +707,6 @@ p {
 }
 
 .social {
-    max-width: 400px;
     margin: auto auto auto auto;
 }
 
@@ -776,7 +782,20 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    font-size: 22px;
 }
+/*Ajout*/
+.font-weight {
+    font-weight: 900;
+    background: #f0dcd3;
+    opacity: 0.7;
+}
+.font-size {
+    font-size: 22px;
+}
+
+
+/****/
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -784,7 +803,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: black/*#c27956!important*/;
     color: #FFFFFF!important;
 }
 
@@ -836,6 +855,9 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+    .img-responsive {
+        margin: auto;
     }
 }
 
