@@ -11,7 +11,6 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-    
 }
 
 a:hover {
@@ -22,6 +21,9 @@ a:hover {
 /*Ajout*/
 .text-center {
     font-size: 14px;
+}
+li {
+    list-style: none;
 }
 /*****/
 
@@ -52,7 +54,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 40px 50px;
 }
 
 .bloc-md {
@@ -202,7 +204,9 @@ a:hover {
 
 .d-bloc .panel,
 .l-bloc {
-    color: rgba(0, 0, 0, .5);
+    margin: auto auto auto;
+    color: rgba(0, 0, 0, 0.644);
+    font-weight: 900;
 }
 
 .d-bloc .panel button:hover,
@@ -312,6 +316,10 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+}
+.navbar-brand img:hover {
+    background-color: hsl(19, 83%, 82%);
+    border-radius: 5px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -655,10 +663,14 @@ h6,
 p,
 label,
 .btn,
-a {
+a{
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #535050!important;
+}
+label {
+    font-weight: 900;
+    font-size: 16px;
 }
 
 .container {
@@ -708,6 +720,8 @@ p {
 
 .social {
     margin: auto auto auto auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 h2 {
@@ -793,7 +807,27 @@ h4 {
 .font-size {
     font-size: 22px;
 }
-
+.text-citation {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+.lien-contact:hover {
+    background-color:hsl(19, 83%, 82%);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#message {
+    height: 200px;
+}
+input {
+    margin-bottom: 10px;
+    width: 400px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 /****/
 
