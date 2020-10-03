@@ -19,11 +19,14 @@ a:hover {
 }
 
 /*Ajout*/
-.text-center {
+.text-size {
     font-size: 14px;
 }
 li {
     list-style: none;
+}
+.h2-shadow {
+    text-shadow: 3px 2px 2px white;
 }
 /*****/
 
