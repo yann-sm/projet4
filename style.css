@@ -810,6 +810,9 @@ h4 {
 .font-size {
     font-size: 22px;
 }
+.text-align {
+    margin-left: -30px;
+}
 .text-citation {
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
@@ -824,7 +827,6 @@ h4 {
 }
 input {
     margin-bottom: 10px;
-    width: 400px;
 }
 .column {
     display: flex;
